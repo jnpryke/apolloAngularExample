@@ -1,0 +1,15 @@
+query getRockets {
+  rockets {
+    name
+    id
+    diameter {
+      meters
+    }
+    description
+    company
+    first_flight
+    cost_per_launch
+    country
+    wikipedia
+  }
+}

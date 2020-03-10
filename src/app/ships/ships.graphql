@@ -1,0 +1,10 @@
+query getShips {
+  ships {
+    id
+    missions {
+      flight
+      name
+    }
+    model
+  }
+}
