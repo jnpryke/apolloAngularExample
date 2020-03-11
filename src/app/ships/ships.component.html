@@ -1,1 +1,24 @@
-<p>ships works!</p>
+<!-- <h1>SpaceX ⚡ Ships</h1>
+
+<div *ngIf="!rockets">Loading...</div>
+
+<div *ngFor="let rocket of ships" [id]="rocket.id">
+  <h2>{{ rocket.name }}</h2>
+  <p>{{ rocket.description }}</p>
+  <ul>
+    <li><strong>Diameter:</strong> {{ rocket.diameter.meters }}</li>
+    <li><strong>First flight:</strong> {{ rocket.first_flight }}</li>
+    <li><strong>Company:</strong> {{ rocket.company }}</li>
+    <li><strong>Country:</strong> {{ rocket.country }}</li>
+    <li>
+      <strong>Cost per launch:</strong>
+      {{ rocket.cost_per_launch | currency: "EUR" }}
+    </li>
+    <li>
+      <strong>Wikipedia: </strong>
+      <a [href]="rocket.wikipedia" target="_blank">read more</a>
+    </li>
+  </ul>
+</div> -->
+
+<pre>{{ ships | json }}</pre>
